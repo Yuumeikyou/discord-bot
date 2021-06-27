@@ -3,8 +3,6 @@ help_ping = 'Show client latency'
 
 help_search = 'Random related image'
 
-help_8ball = 'Answers the question(answer is yes|no|idk)'
-
 help_clear = 'Deletes specified amount of messages, including command itself'
 
 help_avatar = 'Gives a link to selected user avatar'
