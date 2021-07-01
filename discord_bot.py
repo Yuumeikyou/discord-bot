@@ -179,7 +179,7 @@ async def showpic(ctx, *, search):
     ran = random.randint(0, 9)
     resource = build("customsearch", "v1", developerKey = api_key).cse()
     result = resource.list(
-        q=f"{search}", cx="2f7a458793894e534", searchType="image"  #cx is your public custom search engine id
+        q=f"{search}", cx="2f7a458793894e534", searchType="image"  #cx is your custom search engine public id
     ).execute()
     url = result["items"][ran]["link"]
     embed1 = discord.Embed(
@@ -195,7 +195,7 @@ async def showgif(ctx, *, search):
     ran = random.randint(0, 9)
     resource = build("customsearch", "v1", developerKey = api_key).cse()
     result = resource.list(
-        q=f"{search}", cx="2f7a458793894e534", searchType="image", imgType="animated" #cx is your public custom search engine id
+        q=f"{search}", cx="2f7a458793894e534", searchType="image", imgType="animated" #cx is your custom search engine public id
     ).execute()
     url = result["items"][ran]["link"]
     embed1 = discord.Embed(
