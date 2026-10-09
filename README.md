@@ -1,4 +1,4 @@
-# seems like it's outdated now and doesnt work at all xd
+# seems like it's outdated now and shouldn't work xd
 # discord-bot
 image/music/moderation bot for discord server
 
