@@ -1,5 +1,4 @@
-# seems like it's outdated now and shouldn't work xd
-# discord-bot
+# seems like it's outdated now and shouldn't work xd  
 image/music/moderation bot sample for discord server
 
 ## installing packages:
