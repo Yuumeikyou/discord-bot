@@ -1,6 +1,6 @@
 # seems like it's outdated now and shouldn't work xd
 # discord-bot
-image/music/moderation bot for discord server
+image/music/moderation bot sample for discord server
 
 ## installing packages:
 `python v 3.8 or above`
